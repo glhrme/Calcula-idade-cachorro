@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1134F518264CC39C00DFA288 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 1134F517264CC39C00DFA288 /* cachorro.png */; };
 		11E0BFE0264CBF56000EF7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E0BFDF264CBF56000EF7FC /* AppDelegate.swift */; };
 		11E0BFE2264CBF56000EF7FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E0BFE1264CBF56000EF7FC /* SceneDelegate.swift */; };
 		11E0BFE4264CBF56000EF7FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E0BFE3264CBF56000EF7FC /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1134F517264CC39C00DFA288 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
 		11E0BFDC264CBF56000EF7FC /* IdadeCachorro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdadeCachorro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E0BFDF264CBF56000EF7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11E0BFE1264CBF56000EF7FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1134F51C264CC3AC00DFA288 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				1134F517264CC39C00DFA288 /* cachorro.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		11E0BFD3264CBF56000EF7FC = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		11E0BFDE264CBF56000EF7FC /* IdadeCachorro */ = {
 			isa = PBXGroup;
 			children = (
+				1134F51C264CC3AC00DFA288 /* assets */,
 				11E0BFDF264CBF56000EF7FC /* AppDelegate.swift */,
 				11E0BFE1264CBF56000EF7FC /* SceneDelegate.swift */,
 				11E0BFE3264CBF56000EF7FC /* ViewController.swift */,
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1134F518264CC39C00DFA288 /* cachorro.png in Resources */,
 				11E0BFEC264CBF57000EF7FC /* LaunchScreen.storyboard in Resources */,
 				11E0BFE9264CBF57000EF7FC /* Assets.xcassets in Resources */,
 				11E0BFE7264CBF56000EF7FC /* Main.storyboard in Resources */,
